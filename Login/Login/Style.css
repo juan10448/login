@@ -1,0 +1,123 @@
+
+body 
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(27deg, #5DADE2 50%, #48C9B0 50% );
+
+    }
+    .formulario
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: white;
+        border-radius: 10px;
+
+    }
+
+
+    .formulario h1{
+        text-align: center;
+        padding: 0 20px 0;
+        border-bottom: 1px solid silver;
+    }
+    .formulario form{
+        padding:  0 40px;
+        box-sizing: border-box;
+    }
+    form .user{
+        position: relative;
+        border-bottom: 2px solid #adadad;
+        margin: 30px 0;
+
+    }
+    .user input{
+        width: 100px;
+        padding: 0 5px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+
+    .user label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        color: #adadad;
+        transform: translateY(-50%);
+        font-size: 16px;
+        pointer-events: none;
+
+    }
+    
+        user span::before
+        { 
+                content: '';
+                position: absolute;    
+                top: 40px;             
+                left: 0;             
+                width: ex;             
+                height: 2px;             
+                background: #6C3483;
+        }
+        
+        
+        .user input:focus ~ label 
+        .user input:focus ~ label{
+            top: -5px;
+            color: #6C3483;
+            
+        }
+        
+    
+        .user input:focus ~ span::before,
+        .user input:focus ~ span::before{
+            width: 100%;
+        }
+
+        .recordar{
+            margin: -5px, 0 20px 5px;
+            color: blue;
+            cursor: pointer;
+        }
+
+        .recordar :hover{
+            text-decoration: underline;
+        }
+        input[type="submit"]{
+            width: 300px;
+            height: 50px;
+            border: 1px solid;
+            background: #6C3483;
+            border-radius: 25px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            outline: none;
+            
+
+
+        }
+      
+
+        
+
+
+        
+      
+
+
+
+
+
+   
+  
